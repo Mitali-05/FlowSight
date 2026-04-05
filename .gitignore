@@ -1,0 +1,40 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+.Python
+
+# ── Virtual Environment ──
+venv/
+env/
+.env/
+.venv/
+
+# ── Environment Variables ───
+.env
+.env.local
+.env.production
+*.env
+
+# ── Database ──
+backend/traffic.db
+backend/traffic.db-wal
+backend/traffic.db-shm
+*.db
+*.sqlite
+*.sqlite3
+
+# ── ML Models (large binary files — regenerate with training scripts) ──
+backend/ml/classifier.pkl
+backend/ml/anomaly_detector.pkl
+backend/ml/label_encoder.pkl
+ml_pipeline/dataset.csv
+
+# ── Frontend ──
+frontend/node_modules/
